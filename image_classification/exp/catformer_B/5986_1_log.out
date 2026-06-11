@@ -1,0 +1,16 @@
+submitit INFO (2024-08-17 18:57:45,168) - Starting with JobEnvironment(job_id=5986, hostname=gpu1, local_rank=1(4), node=0(1), global_rank=1(4))
+submitit INFO (2024-08-17 18:57:45,168) - Loading pickle: /home/u000011200011/data/CATv2/CATFormer-D4,5,12,4-C64,128,320,512-H2,4,8,16-K5,5,1,1-5-small-plus-1-1-16,1-4,1,1-0.2-/image_classification/exp/uniformer_small/5986_submitted.pkl
+Process group: 4 tasks, rank: 1
+| distributed init (rank 1): file:///home/u000011200011/checkpoint/wgvit/2cf86bda69f14aac9624f31a1e8aad70_init
+submitit INFO (2024-08-20 18:55:20,903) - Job has timed out. Ran 4318 minutes out of requested 4320 minutes.
+submitit WARNING (2024-08-20 18:55:20,904) - Caught signal SIGUSR2 on gpu1: this job is timed-out.
+submitit INFO (2024-08-20 18:55:20,912) - Not checkpointing nor requeuing since I am a slave (procid=1).
+submitit WARNING (2024-08-20 18:55:20,912) - Bypassing signal SIGCONT
+submitit WARNING (2024-08-20 18:55:21,388) - Bypassing signal SIGTERM
+submitit WARNING (2024-08-20 18:55:21,389) - Bypassing signal SIGCONT
+submitit INFO (2024-08-20 18:58:06,994) - Starting with JobEnvironment(job_id=5986, hostname=gpu1, local_rank=1(4), node=0(1), global_rank=1(4))
+submitit INFO (2024-08-20 18:58:06,994) - Loading pickle: /home/u000011200011/data/CATv2/CATFormer-D4,5,12,4-C64,128,320,512-H2,4,8,16-K5,5,1,1-5-small-plus-1-1-16,1-4,1,1-0.2-/image_classification/exp/uniformer_small/5986_submitted.pkl
+Process group: 4 tasks, rank: 1
+| distributed init (rank 1): file:///home/u000011200011/checkpoint/wgvit/b4fc41bd3e524c3d8e95d1f0dbea73a6_init
+submitit INFO (2024-08-20 19:43:01,299) - Job completed successfully
+submitit INFO (2024-08-20 19:43:01,302) - Exiting after successful completion

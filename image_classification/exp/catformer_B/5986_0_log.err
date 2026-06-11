@@ -1,0 +1,12 @@
+[rank0]:[W reducer.cpp:1360] Warning: find_unused_parameters=True was specified in DDP constructor, but did not find any unused parameters in the forward pass. This flag results in an extra traversal of the autograd graph every iteration,  which can adversely affect performance. If your model indeed never has any unused parameters in the forward pass, consider turning this flag off. Note that this warning may be a false positive if your model has flow control causing later iterations to have unused parameters. (function operator())
+submitit WARNING (2024-08-20 18:55:20,903) - Caught signal SIGUSR2 on gpu1: this job is timed-out.
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** JOB 5986 ON gpu1 CANCELLED AT 2024-08-20T18:55:21 DUE TO JOB REQUEUE ***
+slurmstepd: error: *** STEP 5986.0 ON gpu1 CANCELLED AT 2024-08-20T18:55:21 DUE TO JOB REQUEUE ***
+submitit WARNING (2024-08-20 18:55:21,218) - Bypassing signal SIGCONT
+submitit WARNING (2024-08-20 18:55:21,226) - Bypassing signal SIGCONT
+submitit WARNING (2024-08-20 18:55:21,241) - Bypassing signal SIGTERM
+slurmstepd: error: Failed to send MESSAGE_TASK_EXIT: Connection refused
+slurmstepd: error: Failed to send MESSAGE_TASK_EXIT: Connection refused
+Failed to find state_dict_ema, starting from loaded model weights
+[rank0]:[W reducer.cpp:1360] Warning: find_unused_parameters=True was specified in DDP constructor, but did not find any unused parameters in the forward pass. This flag results in an extra traversal of the autograd graph every iteration,  which can adversely affect performance. If your model indeed never has any unused parameters in the forward pass, consider turning this flag off. Note that this warning may be a false positive if your model has flow control causing later iterations to have unused parameters. (function operator())

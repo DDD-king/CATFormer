@@ -1,0 +1,6 @@
+submitit INFO (2024-08-18 21:46:35,643) - Starting with JobEnvironment(job_id=6010, hostname=gpu3, local_rank=3(8), node=0(1), global_rank=3(8))
+submitit INFO (2024-08-18 21:46:35,644) - Loading pickle: /home/u000011200011/data/CATv2/CATFormer-D5,8,20,7-C96,192,384,640-H3,6,12,20-K5,5,1,1-5-small-plus-1-1-16,1-4,1,1-0.4-1/image_classification/exp/uniformer_small/6010_submitted.pkl
+Process group: 8 tasks, rank: 3
+| distributed init (rank 3): file:///home/u000011200011/checkpoint/wgvit/927d8dff7fa647f3bef64fade34689fc_init
+submitit INFO (2024-08-21 14:26:33,458) - Job completed successfully
+submitit INFO (2024-08-21 14:26:33,465) - Exiting after successful completion

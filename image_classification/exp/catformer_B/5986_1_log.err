@@ -1,0 +1,7 @@
+[rank1]:[W reducer.cpp:1360] Warning: find_unused_parameters=True was specified in DDP constructor, but did not find any unused parameters in the forward pass. This flag results in an extra traversal of the autograd graph every iteration,  which can adversely affect performance. If your model indeed never has any unused parameters in the forward pass, consider turning this flag off. Note that this warning may be a false positive if your model has flow control causing later iterations to have unused parameters. (function operator())
+submitit WARNING (2024-08-20 18:55:20,904) - Caught signal SIGUSR2 on gpu1: this job is timed-out.
+submitit WARNING (2024-08-20 18:55:20,912) - Bypassing signal SIGCONT
+submitit WARNING (2024-08-20 18:55:21,388) - Bypassing signal SIGTERM
+submitit WARNING (2024-08-20 18:55:21,389) - Bypassing signal SIGCONT
+Failed to find state_dict_ema, starting from loaded model weights
+[rank1]:[W reducer.cpp:1360] Warning: find_unused_parameters=True was specified in DDP constructor, but did not find any unused parameters in the forward pass. This flag results in an extra traversal of the autograd graph every iteration,  which can adversely affect performance. If your model indeed never has any unused parameters in the forward pass, consider turning this flag off. Note that this warning may be a false positive if your model has flow control causing later iterations to have unused parameters. (function operator())
